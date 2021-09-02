@@ -1,9 +1,13 @@
 
 <h1 [ngClass]="'c2'">Welcome to {{Subtitle}}</h1>
 
-<p><b>Start shopping {{customerName}}</b></p>
+<h2><b>Start shopping {{customerName}} Now!</b></h2>
 
-<div [ngStyle]="{color:colorVal}">We Have A Sale Today</div>
-
-<div [ngClass]="'c1'">NEW BRANDS ARE LAUNCHED
+<marquee><div [ngStyle]="{color:colorVal}">We Have A Sale Today!!!!!!</div></marquee>
+<div>
+<div [ngClass]="'c1'">NEW BRANDS ARE LAUNCHED!!!!!!!!!!!!!!!!!!!
+</div>
+<div>
+  <input [placeholder]="holder">
+  <button (click)="showBrand()">SEARCH</button>
 </div>

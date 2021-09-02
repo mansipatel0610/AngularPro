@@ -20,4 +20,10 @@ export class ParentComponent implements OnInit {
   classname='c1';
 
   class='c2';
+
+  holder='Enter Brand Name';
+
+  showBrand(){
+    alert('GUCCI is not available');
+  }
 }
