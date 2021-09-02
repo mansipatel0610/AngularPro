@@ -14,4 +14,10 @@ export class ParentComponent implements OnInit {
   Subtitle='Zara!';
 
   customerName='Mansi';
+
+  colorVal='red';
+
+  classname='c1';
+
+  class='c2';
 }
