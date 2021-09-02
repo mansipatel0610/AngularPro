@@ -8,6 +8,15 @@
 <div [ngClass]="'c1'">NEW BRANDS ARE LAUNCHED!!!!!!!!!!!!!!!!!!!
 </div>
 <div>
+  
   <input [placeholder]="holder">
   <button (click)="showBrand()">SEARCH</button>
+<h4>
+  <input [(ngModel)]="productName">
+</h4>
+<button (click)="readProdName()">Enter Product Name</button>
+<div>
+  {{productName}}
 </div>
+</div>
+

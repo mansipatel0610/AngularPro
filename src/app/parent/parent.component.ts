@@ -23,7 +23,14 @@ export class ParentComponent implements OnInit {
 
   holder='Enter Brand Name';
 
+  productName ="";
+
   showBrand(){
     alert('GUCCI is not available');
   }
+  readProdName()
+  {
+    console.log(this.productName);
+  }
+
 }
